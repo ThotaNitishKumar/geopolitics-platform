@@ -4,6 +4,13 @@ import generateAnalysis from './aiService.js';
 
 const parser = new Parser({
     timeout: 10000,
+    customFields: {
+        item: [
+            ['media:content', 'media:content', { keepArray: true }],
+            ['media:thumbnail', 'media:thumbnail'],
+            ['content:encoded', 'contentEncoded'],
+        ],
+    },
 });
 
 // RSS Feeds for Global Coverage
@@ -76,14 +83,26 @@ const detectContinent = (text) => {
 };
 
 const extractImage = (item, title) => {
-    // Try enclosure
+    // 1. Try media:content (often has multiple, we want one with a URL)
+    if (item['media:content']) {
+        const media = Array.isArray(item['media:content']) ? item['media:content'] : [item['media:content']];
+        const imageMedia = media.find(m => m.$ && m.$.url && (m.$.type?.includes('image') || m.$.medium === 'image'));
+        if (imageMedia) return imageMedia.$.url;
+        if (media[0] && media[0].$) return media[0].$.url;
+    }
+
+    // 2. Try media:thumbnail
+    if (item['media:thumbnail'] && item['media:thumbnail'].$) return item['media:thumbnail'].$.url;
+
+    // 3. Try enclosure
     if (item.enclosure && item.enclosure.url) return item.enclosure.url;
-    // Try media:content
-    if (item['media:content'] && item['media:content'].$) return item['media:content'].$.url;
+
+    // 4. Try legacy or alternative names
     if (item.mediaContent && item.mediaContent.url) return item.mediaContent.url;
-    // Check content for img tags
-    const content = item.contentSnippet || item.content || '';
-    const imgMatch = content.match(/<img[^>]+src="([^">]+)"/);
+
+    // 5. Check content for img tags (including content:encoded)
+    const fullContent = item.contentEncoded || item.contentSnippet || item.content || '';
+    const imgMatch = fullContent.match(/<img[^>]+src="([^">]+)"/);
     if (imgMatch) return imgMatch[1];
 
     // Fallback: Dynamic Unsplash image based on title keywords
@@ -97,6 +116,10 @@ const isGeopolitical = (text) => {
 };
 
 const fetchNews = async () => {
+    if (Article.base.connection.readyState !== 1) {
+        console.warn('Database not connected. Skipping news fetch task.');
+        return;
+    }
     console.log('Running News Fetch Task (RSS)...');
     let count = 0;
 

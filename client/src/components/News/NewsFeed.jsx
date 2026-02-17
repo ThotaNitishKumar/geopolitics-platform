@@ -21,8 +21,8 @@ const NewsFeed = ({ isHighPriority = false }) => {
 
         fetchNews();
 
-        // Refresh every 5 minutes (reduced frequency to avoid overwhelming)
-        const interval = setInterval(fetchNews, 300000);
+        // Refresh every 1 minute to sync with server updates
+        const interval = setInterval(fetchNews, 60000);
 
         return () => clearInterval(interval);
     }, [isHighPriority]);
