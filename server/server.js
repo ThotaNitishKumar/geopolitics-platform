@@ -1,5 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
+dotenv.config();
+
 import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
@@ -8,10 +10,10 @@ import authRoutes from './routes/authRoutes.js';
 import newsRoutes from './routes/newsRoutes.js';
 import conflictRoutes from './routes/conflictRoutes.js';
 import statsRoutes from './routes/statsRoutes.js';
+import reportRoutes from './routes/reportRoutes.js';
+import predictionRoutes from './routes/predictionRoutes.js';
 import { notFound, errorHandler } from './middleware/errorMiddleware.js';
 import startCronJobs from './cron/newsScheduler.js';
-
-dotenv.config();
 
 // Wrap everything inside async function
 const startServer = async () => {
@@ -34,6 +36,8 @@ const startServer = async () => {
         app.use('/api/news', newsRoutes);
         app.use('/api/conflicts', conflictRoutes);
         app.use('/api/stats', statsRoutes);
+        app.use('/api/reports', reportRoutes);
+        app.use('/api/predictions', predictionRoutes);
 
         app.get('/', (req, res) => {
             res.send('API is running...');

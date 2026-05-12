@@ -1,182 +1,2001 @@
 {
-    "USA": {
-        "gdp": "25.46 Trillion USD",
-        "gdpGrowth": "2.1%",
-        "inflation": "3.4%",
-        "militaryPower": 1,
-        "activePersonnel": "1.4 Million",
-        "defenseBudget": "816 Billion USD",
-        "nuclearWarheads": "5,550",
-        "aircraftCarriers": 11,
-        "primeExport": "Refined Petroleum, Aircraft, Medical Instruments",
-        "strategicAlliance": "NATO"
+    "Afghanistan": {
+        "name": "Afghanistan",
+        "flag": "🇦🇫",
+        "region": "Asia",
+        "capital": "Kabul"
+    },
+    "Albania": {
+        "name": "Albania",
+        "flag": "🇦🇱",
+        "region": "Europe",
+        "capital": "Tirana"
+    },
+    "Algeria": {
+        "name": "Algeria",
+        "flag": "🇩🇿",
+        "region": "Africa",
+        "capital": "Algiers"
+    },
+    "Andorra": {
+        "name": "Andorra",
+        "flag": "🇦🇩",
+        "region": "Europe",
+        "capital": "Andorra la Vella"
+    },
+    "Angola": {
+        "name": "Angola",
+        "flag": "🇦🇴",
+        "region": "Africa",
+        "capital": "Luanda"
+    },
+    "Antigua and Barbuda": {
+        "name": "Antigua and Barbuda",
+        "flag": "🇦🇬",
+        "region": "Americas",
+        "capital": "Saint John's"
+    },
+    "Argentina": {
+        "name": "Argentina",
+        "flag": "🇦🇷",
+        "capital": "Buenos Aires",
+        "population": "45.8 Million",
+        "gdp": "630 Billion USD",
+        "gdpPPP": "1.2 Trillion USD",
+        "gdpGrowth": "-2.5%",
+        "inflation": "211%",
+        "currency": "ARS ($)",
+        "government": "Federal Presidential Republic",
+        "region": "Americas",
+        "militaryPower": 28,
+        "activePersonnel": "72,000",
+        "reservePersonnel": "0",
+        "tanks": "230",
+        "fighterAircraft": "20",
+        "navalShips": "40",
+        "aircraftCarriers": 0,
+        "nuclearWarheads": 0,
+        "defenseBudget": "3 Billion USD",
+        "globalFirepowerRank": 28,
+        "primeExport": "Soybean Meal, Corn, Delivery Trucks, Wheat",
+        "primeImport": "Refined Petroleum, Cars, Parts",
+        "foreignReserves": "27 Billion USD",
+        "debtToGDP": "85%",
+        "majorIndustries": "Agriculture, Mining, Manufacturing",
+        "strategicAlliance": "Mercosur / G20",
+        "techCompanies": "Mercado Libre, Globant, Auth0",
+        "semiconductorCap": "Limited",
+        "aiDevelopmentRank": 35,
+        "spaceMissions": "Regional Leader (CONAE)",
+        "satellites": "10+",
+        "internetPenetration": "85%",
+        "rdSpending": "0.5% of GDP",
+        "softPowerRank": 38,
+        "diplomaticMissions": "150+",
+        "unInfluence": "Major Latin American Voice / G20 member",
+        "foreignAid": "Limited",
+        "culturalInfluence": "High (Football, Literature, Tango)",
+        "globalInfluenceScore": 55,
+        "alliances": [
+            "Mercosur",
+            "G20"
+        ],
+        "rivals": [],
+        "projection2035": {
+            "gdpRank": 25,
+            "militaryRank": 35,
+            "population": "51 Million",
+            "climateRisk": "Moderate",
+            "techGrowth": "High (Fintech focus)"
+        }
+    },
+    "Armenia": {
+        "name": "Armenia",
+        "flag": "🇦🇲",
+        "region": "Asia",
+        "capital": "Yerevan"
+    },
+    "Australia": {
+        "name": "Australia",
+        "flag": "🇦🇺",
+        "region": "Oceania",
+        "capital": "Canberra"
+    },
+    "Austria": {
+        "name": "Austria",
+        "flag": "🇦🇹",
+        "region": "Europe",
+        "capital": "Vienna"
+    },
+    "Azerbaijan": {
+        "name": "Azerbaijan",
+        "flag": "🇦🇿",
+        "region": "Asia",
+        "capital": "Baku"
+    },
+    "Bahamas": {
+        "name": "Bahamas",
+        "flag": "🇧🇸",
+        "region": "Americas",
+        "capital": "Nassau"
+    },
+    "Bahrain": {
+        "name": "Bahrain",
+        "flag": "🇧🇭",
+        "region": "Asia",
+        "capital": "Manama"
+    },
+    "Bangladesh": {
+        "name": "Bangladesh",
+        "flag": "🇧🇩",
+        "region": "Asia",
+        "capital": "Dhaka"
+    },
+    "Barbados": {
+        "name": "Barbados",
+        "flag": "🇧🇧",
+        "region": "Americas",
+        "capital": "Bridgetown"
+    },
+    "Belarus": {
+        "name": "Belarus",
+        "flag": "🇧🇾",
+        "region": "Europe",
+        "capital": "Minsk"
+    },
+    "Belgium": {
+        "name": "Belgium",
+        "flag": "🇧🇪",
+        "region": "Europe",
+        "capital": "Brussels"
+    },
+    "Belize": {
+        "name": "Belize",
+        "flag": "🇧🇿",
+        "region": "Americas",
+        "capital": "Belmopan"
+    },
+    "Benin": {
+        "name": "Benin",
+        "flag": "🇧🇯",
+        "region": "Africa",
+        "capital": "Porto-Novo"
+    },
+    "Bhutan": {
+        "name": "Bhutan",
+        "flag": "🇧🇹",
+        "region": "Asia",
+        "capital": "Thimphu"
+    },
+    "Bolivia": {
+        "name": "Bolivia",
+        "flag": "🇧🇴",
+        "region": "Americas",
+        "capital": "Sucre"
+    },
+    "Bosnia and Herzegovina": {
+        "name": "Bosnia and Herzegovina",
+        "flag": "🇧🇦",
+        "region": "Europe",
+        "capital": "Sarajevo"
+    },
+    "Botswana": {
+        "name": "Botswana",
+        "flag": "🇧🇼",
+        "region": "Africa",
+        "capital": "Gaborone"
+    },
+    "Brazil": {
+        "name": "Brazil",
+        "flag": "🇧🇷",
+        "capital": "Brasilia",
+        "population": "214 Million",
+        "gdp": "2.08 Trillion USD",
+        "gdpPPP": "4.1 Trillion USD",
+        "gdpGrowth": "2.9%",
+        "inflation": "4.6%",
+        "currency": "BRL (R$)",
+        "government": "Federal Presidential Republic",
+        "region": "Americas",
+        "militaryPower": 12,
+        "activePersonnel": "360,000",
+        "reservePersonnel": "1.3 Million",
+        "tanks": "460",
+        "fighterAircraft": "40",
+        "navalShips": "110",
+        "aircraftCarriers": 0,
+        "nuclearWarheads": 0,
+        "defenseBudget": "22 Billion USD",
+        "globalFirepowerRank": 12,
+        "primeExport": "Soybeans, Iron Ore, Crude Petroleum, Beef",
+        "primeImport": "Refined Petroleum, Semiconductors, Fertilizer",
+        "foreignReserves": "350 Billion USD",
+        "debtToGDP": "73%",
+        "majorIndustries": "Agriculture, Mining, Manufacturing, Energy",
+        "strategicAlliance": "BRICS / Mercosur",
+        "techCompanies": "Embraer, Nubank, Weg, Totvs",
+        "semiconductorCap": "Integrated (Design & Packaging)",
+        "aiDevelopmentRank": 25,
+        "spaceMissions": "Limited",
+        "satellites": "15+",
+        "internetPenetration": "81%",
+        "rdSpending": "1.2% of GDP",
+        "softPowerRank": 31,
+        "diplomaticMissions": "220+",
+        "unInfluence": "Leading Voice for Global South / G20 Member",
+        "foreignAid": "200 Million USD",
+        "culturalInfluence": "High (Sports, Music, Carnival)",
+        "globalInfluenceScore": 65,
+        "alliances": [
+            "BRICS",
+            "Mercosur",
+            "G20"
+        ],
+        "rivals": [],
+        "projection2035": {
+            "gdpRank": 8,
+            "militaryRank": 10,
+            "population": "230 Million",
+            "climateRisk": "Critical (Amazon)",
+            "techGrowth": "Steady"
+        }
+    },
+    "Brunei": {
+        "name": "Brunei",
+        "flag": "🇧🇳",
+        "region": "Asia",
+        "capital": "Bandar Seri Begawan"
+    },
+    "Bulgaria": {
+        "name": "Bulgaria",
+        "flag": "🇧🇬",
+        "region": "Europe",
+        "capital": "Sofia"
+    },
+    "Burkina Faso": {
+        "name": "Burkina Faso",
+        "flag": "🇧🇫",
+        "region": "Africa",
+        "capital": "Ouagadougou"
+    },
+    "Burundi": {
+        "name": "Burundi",
+        "flag": "🇧🇮",
+        "region": "Africa",
+        "capital": "Gitega"
+    },
+    "Cabo Verde": {
+        "name": "Cabo Verde",
+        "flag": "🇨🇻",
+        "region": "Africa",
+        "capital": "Praia"
+    },
+    "Cambodia": {
+        "name": "Cambodia",
+        "flag": "🇰🇭",
+        "region": "Asia",
+        "capital": "Phnom Penh"
+    },
+    "Cameroon": {
+        "name": "Cameroon",
+        "flag": "🇨🇲",
+        "region": "Africa",
+        "capital": "Yaounde"
+    },
+    "Canada": {
+        "name": "Canada",
+        "flag": "🇨🇦",
+        "capital": "Ottawa",
+        "population": "38.2 Million",
+        "gdp": "2.14 Trillion USD",
+        "gdpPPP": "2.3 Trillion USD",
+        "gdpGrowth": "1.1%",
+        "inflation": "3.1%",
+        "currency": "CAD ($)",
+        "government": "Federal Parliamentary Democracy / Constitutional Monarchy",
+        "region": "Americas",
+        "militaryPower": 27,
+        "activePersonnel": "68,000",
+        "reservePersonnel": "30,000",
+        "tanks": "82",
+        "fighterAircraft": "80",
+        "navalShips": "65",
+        "aircraftCarriers": 0,
+        "nuclearWarheads": 0,
+        "defenseBudget": "26 Billion USD",
+        "globalFirepowerRank": 27,
+        "primeExport": "Crude Petroleum, Cars, Gold, Sawn Wood",
+        "primeImport": "Cars, Parts, Refined Petroleum",
+        "foreignReserves": "110 Billion USD",
+        "debtToGDP": "107%",
+        "majorIndustries": "Energy, Mining, Finance, Tech, Manufacturing",
+        "strategicAlliance": "NATO / Five Eyes / G7 / USMCA",
+        "techCompanies": "Shopify, Constellation Software, Thomson Reuters",
+        "semiconductorCap": "High (Equipment & Specialized Design)",
+        "aiDevelopmentRank": 3,
+        "spaceMissions": "Active (CSA - Canadarm3)",
+        "satellites": "60+",
+        "internetPenetration": "96%",
+        "rdSpending": "1.7% of GDP",
+        "softPowerRank": 6,
+        "diplomaticMissions": "260+",
+        "unInfluence": "Peacekeeping Legacy / Middle Power status",
+        "foreignAid": "6 Billion USD",
+        "culturalInfluence": "Significant (Music, Media, Multiculturalism)",
+        "globalInfluenceScore": 75,
+        "alliances": [
+            "NATO",
+            "Five Eyes",
+            "G7",
+            "USMCA"
+        ],
+        "rivals": [],
+        "projection2035": {
+            "gdpRank": 12,
+            "militaryRank": 25,
+            "population": "45 Million (Immigration driven)",
+            "climateRisk": "Low (Arctic opportunity)",
+            "techGrowth": "High (AI & Quantum)"
+        }
+    },
+    "Central African Republic": {
+        "name": "Central African Republic",
+        "flag": "🇨🇫",
+        "region": "Africa",
+        "capital": "Bangui"
+    },
+    "Chad": {
+        "name": "Chad",
+        "flag": "🇹🇩",
+        "region": "Africa",
+        "capital": "N'Djamena"
+    },
+    "Chile": {
+        "name": "Chile",
+        "flag": "🇨🇱",
+        "region": "Americas",
+        "capital": "Santiago"
     },
     "China": {
+        "flag": "🇨🇳",
+        "capital": "Beijing",
+        "population": "1.41 Billion",
         "gdp": "17.96 Trillion USD",
+        "gdpPPP": "30 Trillion USD",
         "gdpGrowth": "5.2%",
         "inflation": "0.1%",
+        "currency": "CNY (¥)",
+        "government": "Single-party State",
+        "region": "Asia",
         "militaryPower": 3,
         "activePersonnel": "2.0 Million",
+        "reservePersonnel": "510,000",
+        "tanks": "4,950",
+        "fighterAircraft": "1,200",
+        "navalShips": "730",
+        "aircraftCarriers": 3,
+        "nuclearWarheads": "500",
         "defenseBudget": "224 Billion USD",
-        "nuclearWarheads": "350",
-        "aircraftCarriers": 2,
+        "globalFirepowerRank": 3,
         "primeExport": "Computers, Broadcasting Equipment, Integrated Circuits",
-        "strategicAlliance": "SCO"
+        "primeImport": "Crude Petroleum, Iron Ore, Semiconductors",
+        "foreignReserves": "3.2 Trillion USD",
+        "debtToGDP": "77%",
+        "majorIndustries": "Manufacturing, Tech, Energy, Construction",
+        "strategicAlliance": "SCO / BRICS",
+        "techCompanies": "Tencent, Alibaba, Huawei, BYD",
+        "semiconductorCap": "High (Manufacturing & Scaling)",
+        "aiDevelopmentRank": 2,
+        "spaceMissions": "500+",
+        "satellites": "600+",
+        "internetPenetration": "76%",
+        "rdSpending": "2.4% of GDP",
+        "softPowerRank": 5,
+        "diplomaticMissions": "270+",
+        "unInfluence": "Veto Member / Global South Leader",
+        "foreignAid": "10 Billion USD",
+        "culturalInfluence": "Growing (TikTok, Infrastructure Projects)",
+        "globalInfluenceScore": 92,
+        "alliances": [
+            "SCO",
+            "BRICS",
+            "RCEP"
+        ],
+        "rivals": [
+            "USA",
+            "India",
+            "Japan",
+            "Taiwan"
+        ],
+        "projection2035": {
+            "gdpRank": 1,
+            "militaryRank": 2,
+            "population": "1.38 Billion",
+            "climateRisk": "Moderate-High",
+            "techGrowth": "Rapid"
+        },
+        "name": "China"
+    },
+    "Colombia": {
+        "name": "Colombia",
+        "flag": "🇨🇴",
+        "region": "Americas",
+        "capital": "Bogota"
+    },
+    "Comoros": {
+        "name": "Comoros",
+        "flag": "🇰🇲",
+        "region": "Africa",
+        "capital": "Moroni"
+    },
+    "Congo (Congo-Brazzaville)": {
+        "name": "Congo (Congo-Brazzaville)",
+        "flag": "🇨🇬",
+        "region": "Africa",
+        "capital": "Brazzaville"
+    },
+    "Congo (Democratic Republic of the)": {
+        "name": "Congo (Democratic Republic of the)",
+        "flag": "🇨🇩",
+        "region": "Africa",
+        "capital": "Kinshasa"
+    },
+    "Costa Rica": {
+        "name": "Costa Rica",
+        "flag": "🇨🇷",
+        "region": "Americas",
+        "capital": "San Jose"
+    },
+    "Cote d'Ivoire": {
+        "name": "Cote d'Ivoire",
+        "flag": "🇨🇮",
+        "region": "Africa",
+        "capital": "Yamoussoukro"
+    },
+    "Croatia": {
+        "name": "Croatia",
+        "flag": "🇭🇷",
+        "region": "Europe",
+        "capital": "Zagreb"
+    },
+    "Cuba": {
+        "name": "Cuba",
+        "flag": "🇨🇺",
+        "region": "Americas",
+        "capital": "Havana"
+    },
+    "Cyprus": {
+        "name": "Cyprus",
+        "flag": "🇨🇾",
+        "region": "Europe",
+        "capital": "Nicosia"
+    },
+    "Czechia (Czech Republic)": {
+        "name": "Czechia (Czech Republic)",
+        "flag": "🇨🇿",
+        "region": "Europe",
+        "capital": "Prague"
+    },
+    "Denmark": {
+        "name": "Denmark",
+        "flag": "🇩🇰",
+        "region": "Europe",
+        "capital": "Copenhagen"
+    },
+    "Djibouti": {
+        "name": "Djibouti",
+        "flag": "🇩🇯",
+        "region": "Africa",
+        "capital": "Djibouti"
+    },
+    "Dominica": {
+        "name": "Dominica",
+        "flag": "🇩🇲",
+        "region": "Americas",
+        "capital": "Roseau"
+    },
+    "Dominican Republic": {
+        "name": "Dominican Republic",
+        "flag": "🇩🇴",
+        "region": "Americas",
+        "capital": "Santo Domingo"
+    },
+    "Ecuador": {
+        "name": "Ecuador",
+        "flag": "🇪🇨",
+        "region": "Americas",
+        "capital": "Quito"
+    },
+    "Egypt": {
+        "name": "Egypt",
+        "flag": "🇪🇬",
+        "region": "Africa",
+        "capital": "Cairo"
+    },
+    "El Salvador": {
+        "name": "El Salvador",
+        "flag": "🇸🇻",
+        "region": "Americas",
+        "capital": "San Salvador"
+    },
+    "Equatorial Guinea": {
+        "name": "Equatorial Guinea",
+        "flag": "🇬🇶",
+        "region": "Africa",
+        "capital": "Malabo"
+    },
+    "Eritrea": {
+        "name": "Eritrea",
+        "flag": "🇪🇷",
+        "region": "Africa",
+        "capital": "Asmara"
+    },
+    "Estonia": {
+        "name": "Estonia",
+        "flag": "🇪🇪",
+        "region": "Europe",
+        "capital": "Tallinn"
+    },
+    "Eswatini": {
+        "name": "Eswatini",
+        "flag": "🇸🇿",
+        "region": "Africa",
+        "capital": "Mbabane"
+    },
+    "Ethiopia": {
+        "name": "Ethiopia",
+        "flag": "🇪🇹",
+        "region": "Africa",
+        "capital": "Addis Ababa"
+    },
+    "Fiji": {
+        "name": "Fiji",
+        "flag": "🇫🇯",
+        "region": "Oceania",
+        "capital": "Suva"
+    },
+    "Finland": {
+        "name": "Finland",
+        "flag": "🇫🇮",
+        "region": "Europe",
+        "capital": "Helsinki"
+    },
+    "France": {
+        "name": "France",
+        "flag": "🇫🇷",
+        "capital": "Paris",
+        "population": "68 Million",
+        "gdp": "3.0 Trillion USD",
+        "gdpPPP": "3.8 Trillion USD",
+        "gdpGrowth": "0.9%",
+        "inflation": "3.2%",
+        "currency": "EUR (€)",
+        "government": "Semi-Presidential Republic",
+        "region": "Europe",
+        "militaryPower": 9,
+        "activePersonnel": "205,000",
+        "reservePersonnel": "35,000",
+        "tanks": "222",
+        "fighterAircraft": "230",
+        "navalShips": "180",
+        "aircraftCarriers": 1,
+        "nuclearWarheads": "290",
+        "defenseBudget": "56 Billion USD",
+        "globalFirepowerRank": 11,
+        "primeExport": "Aircraft, Turbines, Wines, Cosmetics, Pharma",
+        "primeImport": "Cars, Crude Petroleum, Gas",
+        "foreignReserves": "240 Billion USD",
+        "debtToGDP": "112%",
+        "majorIndustries": "Aerospace, Luxury Goods, Energy, Finance",
+        "strategicAlliance": "NATO / EU / P5",
+        "techCompanies": "Dassault, Airbus, Thales, Capgemini",
+        "semiconductorCap": "High (Advanced Equipment)",
+        "aiDevelopmentRank": 6,
+        "spaceMissions": "Leader (ESA - Ariane)",
+        "satellites": "100+",
+        "internetPenetration": "93%",
+        "rdSpending": "2.2% of GDP",
+        "softPowerRank": 3,
+        "diplomaticMissions": "290+",
+        "unInfluence": "Veto Member / EU Leadership",
+        "foreignAid": "15 Billion USD",
+        "culturalInfluence": "Extremely High (Art, Gastronomy, Fashion)",
+        "globalInfluenceScore": 85,
+        "alliances": [
+            "NATO",
+            "EU",
+            "G7",
+            "P5"
+        ],
+        "rivals": [
+            "Russia",
+            "Iran"
+        ],
+        "projection2035": {
+            "gdpRank": 10,
+            "militaryRank": 8,
+            "population": "70 Million",
+            "climateRisk": "Low-Moderate",
+            "techGrowth": "High (Nuclear & Aerospace)"
+        }
+    },
+    "Gabon": {
+        "name": "Gabon",
+        "flag": "🇬🇦",
+        "region": "Africa",
+        "capital": "Libreville"
+    },
+    "Gambia": {
+        "name": "Gambia",
+        "flag": "🇬🇲",
+        "region": "Africa",
+        "capital": "Banjul"
+    },
+    "Georgia": {
+        "name": "Georgia",
+        "flag": "🇬🇪",
+        "region": "Asia",
+        "capital": "Tbilisi"
+    },
+    "Germany": {
+        "name": "Germany",
+        "flag": "🇩🇪",
+        "capital": "Berlin",
+        "population": "84 Million",
+        "gdp": "4.4 Trillion USD",
+        "gdpPPP": "5.5 Trillion USD",
+        "gdpGrowth": "-0.3%",
+        "inflation": "2.5%",
+        "currency": "EUR (€)",
+        "government": "Federal Parliamentary Republic",
+        "region": "Europe",
+        "militaryPower": 25,
+        "activePersonnel": "181,000",
+        "reservePersonnel": "30,000",
+        "tanks": "300",
+        "fighterAircraft": "140",
+        "navalShips": "65",
+        "aircraftCarriers": 0,
+        "nuclearWarheads": 0,
+        "defenseBudget": "55 Billion USD",
+        "globalFirepowerRank": 24,
+        "primeExport": "Cars, Machinery, Chemicals, Pharma, Tech",
+        "primeImport": "Cars, Gas, Crude Petroleum",
+        "foreignReserves": "300 Billion USD",
+        "debtToGDP": "66%",
+        "majorIndustries": "Automotive, Engineering, Chemicals, Green Tech",
+        "strategicAlliance": "NATO / EU / G7",
+        "techCompanies": "SAP, Siemens, BMW, Bosch, BioNTech",
+        "semiconductorCap": "High (Fabrication & Equipment)",
+        "aiDevelopmentRank": 5,
+        "spaceMissions": "Leader (ESA)",
+        "satellites": "80+",
+        "internetPenetration": "94%",
+        "rdSpending": "3.1% of GDP",
+        "softPowerRank": 4,
+        "diplomaticMissions": "220+",
+        "unInfluence": "Major EU Financial Voice / G7 Leader",
+        "foreignAid": "35 Billion USD",
+        "culturalInfluence": "High (Engineering, Philosophy, Music)",
+        "globalInfluenceScore": 82,
+        "alliances": [
+            "NATO",
+            "EU",
+            "G7"
+        ],
+        "rivals": [
+            "Russia"
+        ],
+        "projection2035": {
+            "gdpRank": 4,
+            "militaryRank": 15,
+            "population": "82 Million (Aging)",
+            "climateRisk": "Moderate (Energy Transition)",
+            "techGrowth": "High (Industrial AI & Green Tech)"
+        }
+    },
+    "Ghana": {
+        "name": "Ghana",
+        "flag": "🇬🇭",
+        "region": "Africa",
+        "capital": "Accra"
+    },
+    "Greece": {
+        "name": "Greece",
+        "flag": "🇬🇷",
+        "region": "Europe",
+        "capital": "Athens"
+    },
+    "Grenada": {
+        "name": "Grenada",
+        "flag": "🇬🇩",
+        "region": "Americas",
+        "capital": "Saint George's"
+    },
+    "Guatemala": {
+        "name": "Guatemala",
+        "flag": "🇬🇹",
+        "region": "Americas",
+        "capital": "Guatemala City"
+    },
+    "Guinea": {
+        "name": "Guinea",
+        "flag": "🇬🇳",
+        "region": "Africa",
+        "capital": "Conakry"
+    },
+    "Guinea-Bissau": {
+        "name": "Guinea-Bissau",
+        "flag": "🇬🇼",
+        "region": "Africa",
+        "capital": "Bissau"
+    },
+    "Guyana": {
+        "name": "Guyana",
+        "flag": "🇬🇾",
+        "region": "Americas",
+        "capital": "Georgetown"
+    },
+    "Haiti": {
+        "name": "Haiti",
+        "flag": "🇭🇹",
+        "region": "Americas",
+        "capital": "Port-au-Prince"
+    },
+    "Holy See": {
+        "name": "Holy See",
+        "flag": "🇻🇦",
+        "region": "Europe",
+        "capital": "Vatican City"
+    },
+    "Honduras": {
+        "name": "Honduras",
+        "flag": "🇭🇳",
+        "region": "Americas",
+        "capital": "Tegucigalpa"
+    },
+    "Hungary": {
+        "name": "Hungary",
+        "flag": "🇭🇺",
+        "region": "Europe",
+        "capital": "Budapest"
+    },
+    "Iceland": {
+        "name": "Iceland",
+        "flag": "🇮🇸",
+        "region": "Europe",
+        "capital": "Reykjavik"
+    },
+    "India": {
+        "flag": "🇮🇳",
+        "capital": "New Delhi",
+        "population": "1.43 Billion",
+        "gdp": "3.73 Trillion USD",
+        "gdpPPP": "13 Trillion USD",
+        "gdpGrowth": "7.6%",
+        "inflation": "5.1%",
+        "currency": "INR (₹)",
+        "government": "Federal Parliamentary Republic",
+        "region": "Asia",
+        "militaryPower": 4,
+        "activePersonnel": "1.45 Million",
+        "reservePersonnel": "1.15 Million",
+        "tanks": "4,614",
+        "fighterAircraft": "600",
+        "navalShips": "295",
+        "aircraftCarriers": 2,
+        "nuclearWarheads": "170",
+        "defenseBudget": "72 Billion USD",
+        "globalFirepowerRank": 4,
+        "primeExport": "Refined Petroleum, Diamonds, Software Services",
+        "primeImport": "Crude Petroleum, Gold, Coal",
+        "foreignReserves": "620 Billion USD",
+        "debtToGDP": "81%",
+        "majorIndustries": "Services, Agriculture, Manufacturing, Pharma",
+        "strategicAlliance": "Quad / BRICS",
+        "techCompanies": "TCS, Infosys, Reliance, Zoho",
+        "semiconductorCap": "Emerging (Assembly & Testing)",
+        "aiDevelopmentRank": 10,
+        "spaceMissions": "100+",
+        "satellites": "100+",
+        "internetPenetration": "50%",
+        "rdSpending": "0.7% of GDP",
+        "softPowerRank": 15,
+        "diplomaticMissions": "190+",
+        "unInfluence": "Major Global South Voice / G20 Leader",
+        "foreignAid": "1.5 Billion USD",
+        "culturalInfluence": "High (Bollywood, Diaspora, Yoga)",
+        "globalInfluenceScore": 75,
+        "alliances": [
+            "Quad",
+            "BRICS",
+            "G20",
+            "I2U2"
+        ],
+        "rivals": [
+            "Pakistan",
+            "China"
+        ],
+        "projection2035": {
+            "gdpRank": 3,
+            "militaryRank": 3,
+            "population": "1.55 Billion",
+            "climateRisk": "High",
+            "techGrowth": "Exponential"
+        },
+        "name": "India"
+    },
+    "Indonesia": {
+        "name": "Indonesia",
+        "flag": "🇮🇩",
+        "region": "Asia",
+        "capital": "Jakarta"
+    },
+    "Iran": {
+        "name": "Iran",
+        "flag": "🇮🇷",
+        "region": "Asia",
+        "capital": "Tehran"
+    },
+    "Iraq": {
+        "name": "Iraq",
+        "flag": "🇮🇶",
+        "region": "Asia",
+        "capital": "Baghdad"
+    },
+    "Ireland": {
+        "name": "Ireland",
+        "flag": "🇮🇪",
+        "region": "Europe",
+        "capital": "Dublin"
+    },
+    "Israel": {
+        "name": "Israel",
+        "flag": "🇮🇱",
+        "region": "Asia",
+        "capital": "Jerusalem"
+    },
+    "Italy": {
+        "name": "Italy",
+        "flag": "🇮🇹",
+        "region": "Europe",
+        "capital": "Rome"
+    },
+    "Jamaica": {
+        "name": "Jamaica",
+        "flag": "🇯🇲",
+        "region": "Americas",
+        "capital": "Kingston"
+    },
+    "Japan": {
+        "name": "Japan",
+        "flag": "🇯🇵",
+        "region": "Asia",
+        "capital": "Tokyo"
+    },
+    "Jordan": {
+        "name": "Jordan",
+        "flag": "🇯🇴",
+        "region": "Asia",
+        "capital": "Amman"
+    },
+    "Kazakhstan": {
+        "name": "Kazakhstan",
+        "flag": "🇰🇿",
+        "region": "Asia",
+        "capital": "Nur-Sultan"
+    },
+    "Kenya": {
+        "name": "Kenya",
+        "flag": "🇰🇪",
+        "region": "Africa",
+        "capital": "Nairobi"
+    },
+    "Kiribati": {
+        "name": "Kiribati",
+        "flag": "🇰🇮",
+        "region": "Oceania",
+        "capital": "South Tarawa"
+    },
+    "Kuwait": {
+        "name": "Kuwait",
+        "flag": "🇰🇼",
+        "region": "Asia",
+        "capital": "Kuwait City"
+    },
+    "Kyrgyzstan": {
+        "name": "Kyrgyzstan",
+        "flag": "🇰🇬",
+        "region": "Asia",
+        "capital": "Bishkek"
+    },
+    "Laos": {
+        "name": "Laos",
+        "flag": "🇱🇦",
+        "region": "Asia",
+        "capital": "Vientiane"
+    },
+    "Latvia": {
+        "name": "Latvia",
+        "flag": "🇱🇻",
+        "region": "Europe",
+        "capital": "Riga"
+    },
+    "Lebanon": {
+        "name": "Lebanon",
+        "flag": "🇱🇧",
+        "region": "Asia",
+        "capital": "Beirut"
+    },
+    "Lesotho": {
+        "name": "Lesotho",
+        "flag": "🇱🇸",
+        "region": "Africa",
+        "capital": "Maseru"
+    },
+    "Liberia": {
+        "name": "Liberia",
+        "flag": "🇱🇷",
+        "region": "Africa",
+        "capital": "Monrovia"
+    },
+    "Libya": {
+        "name": "Libya",
+        "flag": "🇱🇾",
+        "region": "Africa",
+        "capital": "Tripoli"
+    },
+    "Liechtenstein": {
+        "name": "Liechtenstein",
+        "flag": "🇱🇮",
+        "region": "Europe",
+        "capital": "Vaduz"
+    },
+    "Lithuania": {
+        "name": "Lithuania",
+        "flag": "🇱🇹",
+        "region": "Europe",
+        "capital": "Vilnius"
+    },
+    "Luxembourg": {
+        "name": "Luxembourg",
+        "flag": "🇱🇺",
+        "region": "Europe",
+        "capital": "Luxembourg"
+    },
+    "Madagascar": {
+        "name": "Madagascar",
+        "flag": "🇲🇬",
+        "region": "Africa",
+        "capital": "Antananarivo"
+    },
+    "Malawi": {
+        "name": "Malawi",
+        "flag": "🇲🇼",
+        "region": "Africa",
+        "capital": "Lilongwe"
+    },
+    "Malaysia": {
+        "name": "Malaysia",
+        "flag": "🇲🇾",
+        "region": "Asia",
+        "capital": "Kuala Lumpur"
+    },
+    "Maldives": {
+        "name": "Maldives",
+        "flag": "🇲🇻",
+        "region": "Asia",
+        "capital": "Male"
+    },
+    "Mali": {
+        "name": "Mali",
+        "flag": "🇲🇱",
+        "region": "Africa",
+        "capital": "Bamako"
+    },
+    "Malta": {
+        "name": "Malta",
+        "flag": "🇲🇹",
+        "region": "Europe",
+        "capital": "Valletta"
+    },
+    "Marshall Islands": {
+        "name": "Marshall Islands",
+        "flag": "🇲🇭",
+        "region": "Oceania",
+        "capital": "Majuro"
+    },
+    "Mauritania": {
+        "name": "Mauritania",
+        "flag": "🇲🇷",
+        "region": "Africa",
+        "capital": "Nouakchott"
+    },
+    "Mauritius": {
+        "name": "Mauritius",
+        "flag": "🇲🇺",
+        "region": "Africa",
+        "capital": "Port Louis"
+    },
+    "Mexico": {
+        "name": "Mexico",
+        "flag": "🇲🇽",
+        "capital": "Mexico City",
+        "population": "126 Million",
+        "gdp": "1.47 Trillion USD",
+        "gdpPPP": "3.1 Trillion USD",
+        "gdpGrowth": "3.2%",
+        "inflation": "4.4%",
+        "currency": "MXN ($)",
+        "government": "Federal Presidential Republic",
+        "region": "Americas",
+        "militaryPower": 31,
+        "activePersonnel": "350,000",
+        "reservePersonnel": "80,000",
+        "tanks": "0",
+        "fighterAircraft": "3",
+        "navalShips": "190",
+        "aircraftCarriers": 0,
+        "nuclearWarheads": 0,
+        "defenseBudget": "8.5 Billion USD",
+        "globalFirepowerRank": 31,
+        "primeExport": "Cars, Computers, Parts, Crude Petroleum",
+        "primeImport": "Refined Petroleum, Parts, Integrated Circuits",
+        "foreignReserves": "210 Billion USD",
+        "debtToGDP": "49%",
+        "majorIndustries": "Automotive, Tech, Energy, Tourism",
+        "strategicAlliance": "USMCA / G20",
+        "techCompanies": "America Movil, Femsa, Cemex",
+        "semiconductorCap": "Integrated (Backend & Packaging)",
+        "aiDevelopmentRank": 45,
+        "spaceMissions": "Limited",
+        "satellites": "10+",
+        "internetPenetration": "75%",
+        "rdSpending": "0.3% of GDP",
+        "softPowerRank": 45,
+        "diplomaticMissions": "160+",
+        "unInfluence": "Emerging Regional Voice / G20 member",
+        "foreignAid": "Limited",
+        "culturalInfluence": "High (Food, Heritage, Media)",
+        "globalInfluenceScore": 60,
+        "alliances": [
+            "USMCA",
+            "G20"
+        ],
+        "rivals": [],
+        "projection2035": {
+            "gdpRank": 13,
+            "militaryRank": 30,
+            "population": "140 Million",
+            "climateRisk": "High (Water stress)",
+            "techGrowth": "Steady (Nearshoring boost)"
+        }
+    },
+    "Micronesia": {
+        "name": "Micronesia",
+        "flag": "🇫🇲",
+        "region": "Oceania",
+        "capital": "Palikir"
+    },
+    "Moldova": {
+        "name": "Moldova",
+        "flag": "🇲🇩",
+        "region": "Europe",
+        "capital": "Chisinau"
+    },
+    "Monaco": {
+        "name": "Monaco",
+        "flag": "🇲🇨",
+        "region": "Europe",
+        "capital": "Monaco"
+    },
+    "Mongolia": {
+        "name": "Mongolia",
+        "flag": "🇲🇳",
+        "region": "Asia",
+        "capital": "Ulaanbaatar"
+    },
+    "Montenegro": {
+        "name": "Montenegro",
+        "flag": "🇲🇪",
+        "region": "Europe",
+        "capital": "Podgorica"
+    },
+    "Morocco": {
+        "name": "Morocco",
+        "flag": "🇲🇦",
+        "region": "Africa",
+        "capital": "Rabat"
+    },
+    "Mozambique": {
+        "name": "Mozambique",
+        "flag": "🇲🇿",
+        "region": "Africa",
+        "capital": "Maputo"
+    },
+    "Myanmar": {
+        "name": "Myanmar",
+        "flag": "🇲🇲",
+        "region": "Asia",
+        "capital": "Naypyidaw"
+    },
+    "Namibia": {
+        "name": "Namibia",
+        "flag": "🇳🇦",
+        "region": "Africa",
+        "capital": "Windhoek"
+    },
+    "Nauru": {
+        "name": "Nauru",
+        "flag": "🇳🇷",
+        "region": "Oceania",
+        "capital": "Yaren District"
+    },
+    "Nepal": {
+        "name": "Nepal",
+        "flag": "🇳🇵",
+        "region": "Asia",
+        "capital": "Kathmandu"
+    },
+    "Netherlands": {
+        "name": "Netherlands",
+        "flag": "🇳🇱",
+        "region": "Europe",
+        "capital": "Amsterdam"
+    },
+    "New Zealand": {
+        "name": "New Zealand",
+        "flag": "🇳🇿",
+        "region": "Oceania",
+        "capital": "Wellington"
+    },
+    "Nicaragua": {
+        "name": "Nicaragua",
+        "flag": "🇳🇮",
+        "region": "Americas",
+        "capital": "Managua"
+    },
+    "Niger": {
+        "name": "Niger",
+        "flag": "🇳🇪",
+        "region": "Africa",
+        "capital": "Niamey"
+    },
+    "Nigeria": {
+        "name": "Nigeria",
+        "flag": "🇳🇬",
+        "region": "Africa",
+        "capital": "Abuja"
+    },
+    "North Korea": {
+        "name": "North Korea",
+        "flag": "🇰🇵",
+        "region": "Asia",
+        "capital": "Pyongyang"
+    },
+    "North Macedonia": {
+        "name": "North Macedonia",
+        "flag": "🇲🇰",
+        "region": "Europe",
+        "capital": "Skopje"
+    },
+    "Norway": {
+        "name": "Norway",
+        "flag": "🇳🇴",
+        "region": "Europe",
+        "capital": "Oslo"
+    },
+    "Oman": {
+        "name": "Oman",
+        "flag": "🇴🇲",
+        "region": "Asia",
+        "capital": "Muscat"
+    },
+    "Pakistan": {
+        "name": "Pakistan",
+        "flag": "🇵🇰",
+        "region": "Asia",
+        "capital": "Islamabad"
+    },
+    "Palau": {
+        "name": "Palau",
+        "flag": "🇵🇼",
+        "region": "Oceania",
+        "capital": "Ngerulmud"
+    },
+    "Palestine State": {
+        "name": "Palestine State",
+        "flag": "🇵🇸",
+        "region": "Asia",
+        "capital": "Jerusalem"
+    },
+    "Panama": {
+        "name": "Panama",
+        "flag": "🇵🇦",
+        "region": "Americas",
+        "capital": "Panama City"
+    },
+    "Papua New Guinea": {
+        "name": "Papua New Guinea",
+        "flag": "🇵🇬",
+        "region": "Oceania",
+        "capital": "Port Moresby"
+    },
+    "Paraguay": {
+        "name": "Paraguay",
+        "flag": "🇵🇾",
+        "region": "Americas",
+        "capital": "Asuncion"
+    },
+    "Peru": {
+        "name": "Peru",
+        "flag": "🇵🇪",
+        "region": "Americas",
+        "capital": "Lima"
+    },
+    "Philippines": {
+        "name": "Philippines",
+        "flag": "🇵🇭",
+        "region": "Asia",
+        "capital": "Manila"
+    },
+    "Poland": {
+        "name": "Poland",
+        "flag": "🇵🇱",
+        "capital": "Warsaw",
+        "population": "37.8 Million",
+        "gdp": "713 Billion USD",
+        "gdpPPP": "1.7 Trillion USD",
+        "gdpGrowth": "0.5%",
+        "inflation": "11.4%",
+        "currency": "PLN (zł)",
+        "government": "Parliamentary Republic",
+        "region": "Europe",
+        "militaryPower": 21,
+        "activePersonnel": "120,000",
+        "reservePersonnel": "170,000",
+        "tanks": "560",
+        "fighterAircraft": "90",
+        "navalShips": "85",
+        "aircraftCarriers": 0,
+        "nuclearWarheads": 0,
+        "defenseBudget": "24 Billion USD",
+        "globalFirepowerRank": 21,
+        "primeExport": "Cars, Parts, Video Games, Furniture",
+        "primeImport": "Cars, Parts, Crude Petroleum",
+        "foreignReserves": "180 Billion USD",
+        "debtToGDP": "49%",
+        "majorIndustries": "Manufacturing, Tech, Agriculture, Logistics",
+        "strategicAlliance": "NATO / EU / Three Seas",
+        "techCompanies": "CD Projekt, Allegro, Comarch",
+        "semiconductorCap": "Emerging (R&D)",
+        "aiDevelopmentRank": 20,
+        "spaceMissions": "Limited (POLSA)",
+        "satellites": "5+",
+        "internetPenetration": "88%",
+        "rdSpending": "1.4% of GDP",
+        "softPowerRank": 34,
+        "diplomaticMissions": "160+",
+        "unInfluence": "Key Eastern Flank Voice in NATO",
+        "foreignAid": "800 Million USD",
+        "culturalInfluence": "Significant (Gaming, History, Science)",
+        "globalInfluenceScore": 58,
+        "alliances": [
+            "NATO",
+            "EU"
+        ],
+        "rivals": [
+            "Russia",
+            "Belarus"
+        ],
+        "projection2035": {
+            "gdpRank": 18,
+            "militaryRank": 12,
+            "population": "36 Million (Declining)",
+            "climateRisk": "Low-Moderate",
+            "techGrowth": "High (IT Hub)"
+        }
+    },
+    "Portugal": {
+        "name": "Portugal",
+        "flag": "🇵🇹",
+        "region": "Europe",
+        "capital": "Lisbon"
+    },
+    "Qatar": {
+        "name": "Qatar",
+        "flag": "🇶🇦",
+        "region": "Asia",
+        "capital": "Doha"
+    },
+    "Romania": {
+        "name": "Romania",
+        "flag": "🇷🇴",
+        "region": "Europe",
+        "capital": "Bucharest"
     },
     "Russia": {
+        "flag": "🇷🇺",
+        "capital": "Moscow",
+        "population": "144 Million",
         "gdp": "2.24 Trillion USD",
         "gdpGrowth": "3.6%",
         "inflation": "7.4%",
         "militaryPower": 2,
         "activePersonnel": "1.3 Million",
         "defenseBudget": "84 Billion USD",
-        "nuclearWarheads": "5,889",
+        "nuclearWarheads": "5,580",
         "aircraftCarriers": 1,
         "primeExport": "Crude Petroleum, Refined Petroleum, Gas",
-        "strategicAlliance": "CSTO"
+        "strategicAlliance": "CSTO",
+        "alliances": [
+            "CSTO",
+            "BRICS",
+            "SCO"
+        ],
+        "rivals": [
+            "USA",
+            "NATO",
+            "Ukraine"
+        ],
+        "projection2035": {
+            "gdpRank": 10,
+            "militaryRank": 4,
+            "population": "140 Million",
+            "climateRisk": "Low-Moderate (Arctic opening)",
+            "techGrowth": "Stagnant/Redirected"
+        },
+        "name": "Russia",
+        "region": "Europe"
     },
-    "India": {
-        "gdp": "3.73 Trillion USD",
-        "gdpGrowth": "7.6%",
-        "inflation": "5.1%",
-        "militaryPower": 4,
-        "activePersonnel": "1.45 Million",
-        "defenseBudget": "72 Billion USD",
-        "nuclearWarheads": "164",
-        "aircraftCarriers": 2,
-        "primeExport": "Refined Petroleum, Diamonds, Packaged Medicaments",
-        "strategicAlliance": "Quad / BRICS"
+    "Rwanda": {
+        "name": "Rwanda",
+        "flag": "🇷🇼",
+        "region": "Africa",
+        "capital": "Kigali"
     },
-    "UK": {
+    "Saint Kitts and Nevis": {
+        "name": "Saint Kitts and Nevis",
+        "flag": "🇰🇳",
+        "region": "Americas",
+        "capital": "Basseterre"
+    },
+    "Saint Lucia": {
+        "name": "Saint Lucia",
+        "flag": "🇱🇨",
+        "region": "Americas",
+        "capital": "Castries"
+    },
+    "Saint Vincent and the Grenadines": {
+        "name": "Saint Vincent and the Grenadines",
+        "flag": "🇻🇨",
+        "region": "Americas",
+        "capital": "Kingstown"
+    },
+    "Samoa": {
+        "name": "Samoa",
+        "flag": "🇼🇸",
+        "region": "Oceania",
+        "capital": "Apia"
+    },
+    "San Marino": {
+        "name": "San Marino",
+        "flag": "🇸🇲",
+        "region": "Europe",
+        "capital": "San Marino"
+    },
+    "Sao Tome and Principe": {
+        "name": "Sao Tome and Principe",
+        "flag": "🇸🇹",
+        "region": "Africa",
+        "capital": "Sao Tome"
+    },
+    "Saudi Arabia": {
+        "name": "Saudi Arabia",
+        "flag": "🇸🇦",
+        "region": "Asia",
+        "capital": "Riyadh"
+    },
+    "Senegal": {
+        "name": "Senegal",
+        "flag": "🇸🇳",
+        "region": "Africa",
+        "capital": "Dakar"
+    },
+    "Serbia": {
+        "name": "Serbia",
+        "flag": "🇷🇸",
+        "region": "Europe",
+        "capital": "Belgrade"
+    },
+    "Seychelles": {
+        "name": "Seychelles",
+        "flag": "🇸🇨",
+        "region": "Africa",
+        "capital": "Victoria"
+    },
+    "Sierra Leone": {
+        "name": "Sierra Leone",
+        "flag": "🇸🇱",
+        "region": "Africa",
+        "capital": "Freetown"
+    },
+    "Singapore": {
+        "name": "Singapore",
+        "flag": "🇸🇬",
+        "region": "Asia",
+        "capital": "Singapore"
+    },
+    "Slovakia": {
+        "name": "Slovakia",
+        "flag": "🇸🇰",
+        "region": "Europe",
+        "capital": "Bratislava"
+    },
+    "Slovenia": {
+        "name": "Slovenia",
+        "flag": "🇸🇮",
+        "region": "Europe",
+        "capital": "Ljubljana"
+    },
+    "Solomon Islands": {
+        "name": "Solomon Islands",
+        "flag": "🇸🇧",
+        "region": "Oceania",
+        "capital": "Honiara"
+    },
+    "Somalia": {
+        "name": "Somalia",
+        "flag": "🇸🇴",
+        "region": "Africa",
+        "capital": "Mogadishu"
+    },
+    "South Africa": {
+        "name": "South Africa",
+        "flag": "🇿🇦",
+        "region": "Africa",
+        "capital": "Pretoria"
+    },
+    "South Korea": {
+        "name": "South Korea",
+        "flag": "🇰🇷",
+        "region": "Asia",
+        "capital": "Seoul"
+    },
+    "South Sudan": {
+        "name": "South Sudan",
+        "flag": "🇸🇸",
+        "region": "Africa",
+        "capital": "Juba"
+    },
+    "Spain": {
+        "name": "Spain",
+        "flag": "🇪🇸",
+        "capital": "Madrid",
+        "population": "47.4 Million",
+        "gdp": "1.4 Trillion USD",
+        "gdpPPP": "2.2 Trillion USD",
+        "gdpGrowth": "2.5%",
+        "inflation": "3.3%",
+        "currency": "EUR (€)",
+        "government": "Parliamentary Constitutional Monarchy",
+        "region": "Europe",
+        "militaryPower": 20,
+        "activePersonnel": "120,000",
+        "reservePersonnel": "15,000",
+        "tanks": "320",
+        "fighterAircraft": "140",
+        "navalShips": "140",
+        "aircraftCarriers": 1,
+        "nuclearWarheads": 0,
+        "defenseBudget": "16 Billion USD",
+        "globalFirepowerRank": 20,
+        "primeExport": "Cars, Pharma, Oil, Agri-products",
+        "primeImport": "Crude Petroleum, Cars, Parts",
+        "foreignReserves": "85 Billion USD",
+        "debtToGDP": "107%",
+        "majorIndustries": "Tourism, Telecoms, Energy, Manufacturing",
+        "strategicAlliance": "NATO / EU",
+        "techCompanies": "Telefonica, Amadeus, Glovo",
+        "semiconductorCap": "Limited (Assembly)",
+        "aiDevelopmentRank": 22,
+        "spaceMissions": "Active (INTA)",
+        "satellites": "20+",
+        "internetPenetration": "94%",
+        "rdSpending": "1.4% of GDP",
+        "softPowerRank": 11,
+        "diplomaticMissions": "210+",
+        "unInfluence": "Key Mediterranean & Latin American voice",
+        "foreignAid": "4 Billion USD",
+        "culturalInfluence": "Extremely High (Sports, Gastronomy, Language)",
+        "globalInfluenceScore": 70,
+        "alliances": [
+            "NATO",
+            "EU"
+        ],
+        "rivals": [],
+        "projection2035": {
+            "gdpRank": 15,
+            "militaryRank": 20,
+            "population": "48 Million",
+            "climateRisk": "High (Desertification)",
+            "techGrowth": "Moderate"
+        }
+    },
+    "Sri Lanka": {
+        "name": "Sri Lanka",
+        "flag": "🇱🇰",
+        "region": "Asia",
+        "capital": "Sri Jayawardenepura Kotte"
+    },
+    "Sudan": {
+        "name": "Sudan",
+        "flag": "🇸🇩",
+        "region": "Africa",
+        "capital": "Khartoum"
+    },
+    "Suriname": {
+        "name": "Suriname",
+        "flag": "🇸🇷",
+        "region": "Americas",
+        "capital": "Paramaribo"
+    },
+    "Sweden": {
+        "name": "Sweden",
+        "flag": "🇸🇪",
+        "region": "Europe",
+        "capital": "Stockholm"
+    },
+    "Switzerland": {
+        "name": "Switzerland",
+        "flag": "🇨🇭",
+        "region": "Europe",
+        "capital": "Bern"
+    },
+    "Syria": {
+        "name": "Syria",
+        "flag": "🇸🇾",
+        "region": "Asia",
+        "capital": "Damascus"
+    },
+    "Tajikistan": {
+        "name": "Tajikistan",
+        "flag": "🇹🇯",
+        "region": "Asia",
+        "capital": "Dushanbe"
+    },
+    "Tanzania": {
+        "name": "Tanzania",
+        "flag": "🇹🇿",
+        "region": "Africa",
+        "capital": "Dodoma"
+    },
+    "Thailand": {
+        "name": "Thailand",
+        "flag": "🇹🇭",
+        "region": "Asia",
+        "capital": "Bangkok"
+    },
+    "Timor-Leste": {
+        "name": "Timor-Leste",
+        "flag": "🇹🇱",
+        "region": "Asia",
+        "capital": "Dili"
+    },
+    "Togo": {
+        "name": "Togo",
+        "flag": "🇹🇬",
+        "region": "Africa",
+        "capital": "Lome"
+    },
+    "Tonga": {
+        "name": "Tonga",
+        "flag": "🇹🇴",
+        "region": "Oceania",
+        "capital": "Nuku'alofa"
+    },
+    "Trinidad and Tobago": {
+        "name": "Trinidad and Tobago",
+        "flag": "🇹🇹",
+        "region": "Americas",
+        "capital": "Port of Spain"
+    },
+    "Tunisia": {
+        "name": "Tunisia",
+        "flag": "🇹🇳",
+        "region": "Africa",
+        "capital": "Tunis"
+    },
+    "Turkey": {
+        "name": "Turkey",
+        "flag": "🇹🇷",
+        "capital": "Ankara",
+        "population": "85 Million",
+        "gdp": "906 Billion USD",
+        "gdpPPP": "3.6 Trillion USD",
+        "gdpGrowth": "4.5%",
+        "inflation": "64.8%",
+        "currency": "TRY (₺)",
+        "government": "Unitary Presidential Republic",
+        "region": "Asia",
+        "militaryPower": 8,
+        "activePersonnel": "425,000",
+        "reservePersonnel": "380,000",
+        "tanks": "2,200",
+        "fighterAircraft": "200",
+        "navalShips": "155",
+        "aircraftCarriers": 1,
+        "nuclearWarheads": 50,
+        "defenseBudget": "16 Billion USD",
+        "globalFirepowerRank": 8,
+        "primeExport": "Cars, Delivery Trucks, Jewelry, Parts",
+        "primeImport": "Gold, Refined Petroleum, Scrap Iron",
+        "foreignReserves": "130 Billion USD",
+        "debtToGDP": "34%",
+        "majorIndustries": "Automotive, Construction, Textiles, Defense",
+        "strategicAlliance": "NATO / Turkic Council",
+        "techCompanies": "Baykar, Trendyol, Getir, Aselsan",
+        "semiconductorCap": "Emerging (Defense use)",
+        "aiDevelopmentRank": 30,
+        "spaceMissions": "Active (TUA)",
+        "satellites": "10+",
+        "internetPenetration": "82%",
+        "rdSpending": "1.1% of GDP",
+        "softPowerRank": 25,
+        "diplomaticMissions": "250+",
+        "unInfluence": "Critical Regional Power / Black Sea Controller",
+        "foreignAid": "7 Billion USD",
+        "culturalInfluence": "High (TV Series, History, Gastronomy)",
+        "globalInfluenceScore": 80,
+        "alliances": [
+            "NATO",
+            "Turkic Council"
+        ],
+        "rivals": [
+            "Greece",
+            "Armenia"
+        ],
+        "projection2035": {
+            "gdpRank": 12,
+            "militaryRank": 5,
+            "population": "95 Million",
+            "climateRisk": "Moderate-High",
+            "techGrowth": "Rapid (Military Tech)"
+        }
+    },
+    "Turkmenistan": {
+        "name": "Turkmenistan",
+        "flag": "🇹🇲",
+        "region": "Asia",
+        "capital": "Ashgabat"
+    },
+    "Tuvalu": {
+        "name": "Tuvalu",
+        "flag": "🇹🇻",
+        "region": "Oceania",
+        "capital": "Funafuti"
+    },
+    "Uganda": {
+        "name": "Uganda",
+        "flag": "🇺🇬",
+        "region": "Africa",
+        "capital": "Kampala"
+    },
+    "Ukraine": {
+        "name": "Ukraine",
+        "flag": "🇺🇦",
+        "region": "Europe",
+        "capital": "Kyiv"
+    },
+    "United Arab Emirates": {
+        "name": "United Arab Emirates",
+        "flag": "🇦🇪",
+        "region": "Asia",
+        "capital": "Abu Dhabi"
+    },
+    "UAE": {
+        "name": "UAE",
+        "flag": "🇦🇪",
+        "region": "Asia",
+        "capital": "Abu Dhabi"
+    },
+    "United Kingdom": {
+        "flag": "🇬🇧",
+        "capital": "London",
+        "population": "67 Million",
         "gdp": "3.08 Trillion USD",
         "gdpGrowth": "0.1%",
         "inflation": "4.0%",
-        "militaryPower": 5,
+        "militaryPower": 6,
         "activePersonnel": "150,000",
         "defenseBudget": "68 Billion USD",
         "nuclearWarheads": "225",
         "aircraftCarriers": 2,
         "primeExport": "Cars, Gold, Gas Turbines",
-        "strategicAlliance": "NATO"
+        "strategicAlliance": "NATO",
+        "alliances": [
+            "NATO",
+            "G7",
+            "AUKUS",
+            "Five Eyes"
+        ],
+        "rivals": [
+            "Russia",
+            "Iran"
+        ],
+        "projection2035": {
+            "gdpRank": 7,
+            "militaryRank": 8,
+            "population": "70 Million",
+            "climateRisk": "Low",
+            "techGrowth": "Steady"
+        },
+        "name": "United Kingdom",
+        "region": "Europe"
     },
-    "France": {
-        "gdp": "2.78 Trillion USD",
-        "gdpGrowth": "0.7%",
-        "inflation": "3.1%",
-        "militaryPower": 9,
-        "activePersonnel": "200,000",
-        "defenseBudget": "53 Billion USD",
-        "nuclearWarheads": "290",
-        "aircraftCarriers": 1,
-        "primeExport": "Aircraft, Packaged Medicaments, Cars",
-        "strategicAlliance": "NATO"
+    "UK": {
+        "flag": "🇬🇧",
+        "capital": "London",
+        "population": "67 Million",
+        "gdp": "3.08 Trillion USD",
+        "gdpGrowth": "0.1%",
+        "inflation": "4.0%",
+        "militaryPower": 6,
+        "activePersonnel": "150,000",
+        "defenseBudget": "68 Billion USD",
+        "nuclearWarheads": "225",
+        "aircraftCarriers": 2,
+        "primeExport": "Cars, Gold, Gas Turbines",
+        "strategicAlliance": "NATO",
+        "alliances": [
+            "NATO",
+            "G7",
+            "AUKUS",
+            "Five Eyes"
+        ],
+        "rivals": [
+            "Russia",
+            "Iran"
+        ],
+        "projection2035": {
+            "gdpRank": 7,
+            "militaryRank": 8,
+            "population": "70 Million",
+            "climateRisk": "Low",
+            "techGrowth": "Steady"
+        },
+        "name": "UK",
+        "region": "Europe"
     },
-    "Israel": {
-        "gdp": "525 Billion USD",
-        "gdpGrowth": "2.0%",
-        "inflation": "3.0%",
-        "militaryPower": 18,
-        "activePersonnel": "170,000",
-        "defenseBudget": "24 Billion USD",
-        "nuclearWarheads": "90",
-        "aircraftCarriers": 0,
-        "primeExport": "Diamonds, Integrated Circuits, Medical Instruments",
-        "strategicAlliance": "US Major Non-NATO Ally"
+    "United States": {
+        "flag": "🇺🇸",
+        "capital": "Washington, D.C.",
+        "population": "333 Million",
+        "gdp": "25.46 Trillion USD",
+        "gdpPPP": "25.46 Trillion USD",
+        "gdpGrowth": "2.1%",
+        "inflation": "3.4%",
+        "currency": "USD ($)",
+        "government": "Federal Republic",
+        "region": "Americas",
+        "militaryPower": 1,
+        "activePersonnel": "1.4 Million",
+        "reservePersonnel": "440,000",
+        "tanks": "5,500",
+        "fighterAircraft": "1,914",
+        "navalShips": "484",
+        "aircraftCarriers": 11,
+        "nuclearWarheads": "5,550",
+        "defenseBudget": "816 Billion USD",
+        "globalFirepowerRank": 1,
+        "primeExport": "Refined Petroleum, Aircraft, Medical Instruments",
+        "primeImport": "Cars, Computers, Crude Petroleum",
+        "foreignReserves": "242 Billion USD",
+        "debtToGDP": "122%",
+        "majorIndustries": "Tech, Finance, Healthcare, Aerospace",
+        "strategicAlliance": "NATO",
+        "techCompanies": "Apple, Microsoft, Google, NVIDIA",
+        "semiconductorCap": "High (Design & R&D)",
+        "aiDevelopmentRank": 1,
+        "spaceMissions": "1,000+",
+        "satellites": "3,400+",
+        "internetPenetration": "92%",
+        "rdSpending": "3.5% of GDP",
+        "softPowerRank": 1,
+        "diplomaticMissions": "270+",
+        "unInfluence": "Veto Member",
+        "foreignAid": "50 Billion USD",
+        "culturalInfluence": "High (Hollywood, Silicon Valley)",
+        "globalInfluenceScore": 98,
+        "alliances": [
+            "NATO",
+            "Five Eyes",
+            "G7",
+            "Quad"
+        ],
+        "rivals": [
+            "Russia",
+            "China",
+            "Iran",
+            "North Korea"
+        ],
+        "projection2035": {
+            "gdpRank": 2,
+            "militaryRank": 1,
+            "population": "350 Million",
+            "climateRisk": "Low-Moderate",
+            "techGrowth": "Steady"
+        },
+        "name": "United States"
     },
-    "Japan": {
-        "gdp": "4.23 Trillion USD",
-        "gdpGrowth": "1.9%",
-        "inflation": "2.2%",
-        "militaryPower": 7,
-        "activePersonnel": "247,000",
-        "defenseBudget": "48 Billion USD",
-        "nuclearWarheads": "0",
-        "aircraftCarriers": 4,
-        "primeExport": "Cars, Integrated Circuits, Machinery",
-        "strategicAlliance": "USA Mutual Security Treaty"
+    "USA": {
+        "flag": "🇺🇸",
+        "capital": "Washington, D.C.",
+        "population": "333 Million",
+        "gdp": "25.46 Trillion USD",
+        "gdpPPP": "25.46 Trillion USD",
+        "gdpGrowth": "2.1%",
+        "inflation": "3.4%",
+        "currency": "USD ($)",
+        "government": "Federal Republic",
+        "region": "Americas",
+        "militaryPower": 1,
+        "activePersonnel": "1.4 Million",
+        "reservePersonnel": "440,000",
+        "tanks": "5,500",
+        "fighterAircraft": "1,914",
+        "navalShips": "484",
+        "aircraftCarriers": 11,
+        "nuclearWarheads": "5,550",
+        "defenseBudget": "816 Billion USD",
+        "globalFirepowerRank": 1,
+        "primeExport": "Refined Petroleum, Aircraft, Medical Instruments",
+        "primeImport": "Cars, Computers, Crude Petroleum",
+        "foreignReserves": "242 Billion USD",
+        "debtToGDP": "122%",
+        "majorIndustries": "Tech, Finance, Healthcare, Aerospace",
+        "strategicAlliance": "NATO",
+        "techCompanies": "Apple, Microsoft, Google, NVIDIA",
+        "semiconductorCap": "High (Design & R&D)",
+        "aiDevelopmentRank": 1,
+        "spaceMissions": "1,000+",
+        "satellites": "3,400+",
+        "internetPenetration": "92%",
+        "rdSpending": "3.5% of GDP",
+        "softPowerRank": 1,
+        "diplomaticMissions": "270+",
+        "unInfluence": "Veto Member",
+        "foreignAid": "50 Billion USD",
+        "culturalInfluence": "High (Hollywood, Silicon Valley)",
+        "globalInfluenceScore": 98,
+        "alliances": [
+            "NATO",
+            "Five Eyes",
+            "G7",
+            "Quad"
+        ],
+        "rivals": [
+            "Russia",
+            "China",
+            "Iran",
+            "North Korea"
+        ],
+        "projection2035": {
+            "gdpRank": 2,
+            "militaryRank": 1,
+            "population": "350 Million",
+            "climateRisk": "Low-Moderate",
+            "techGrowth": "Steady"
+        },
+        "name": "USA"
     },
-    "Germany": {
-        "gdp": "4.08 Trillion USD",
-        "gdpGrowth": "-0.3%",
-        "inflation": "2.9%",
-        "militaryPower": 19,
-        "activePersonnel": "183,000",
-        "defenseBudget": "55 Billion USD",
-        "nuclearWarheads": "0",
-        "aircraftCarriers": 0,
-        "primeExport": "Cars, Packaged Medicaments, Machinery",
-        "strategicAlliance": "NATO / EU"
+    "US": {
+        "flag": "🇺🇸",
+        "capital": "Washington, D.C.",
+        "population": "333 Million",
+        "gdp": "25.46 Trillion USD",
+        "gdpPPP": "25.46 Trillion USD",
+        "gdpGrowth": "2.1%",
+        "inflation": "3.4%",
+        "currency": "USD ($)",
+        "government": "Federal Republic",
+        "region": "Americas",
+        "militaryPower": 1,
+        "activePersonnel": "1.4 Million",
+        "reservePersonnel": "440,000",
+        "tanks": "5,500",
+        "fighterAircraft": "1,914",
+        "navalShips": "484",
+        "aircraftCarriers": 11,
+        "nuclearWarheads": "5,550",
+        "defenseBudget": "816 Billion USD",
+        "globalFirepowerRank": 1,
+        "primeExport": "Refined Petroleum, Aircraft, Medical Instruments",
+        "primeImport": "Cars, Computers, Crude Petroleum",
+        "foreignReserves": "242 Billion USD",
+        "debtToGDP": "122%",
+        "majorIndustries": "Tech, Finance, Healthcare, Aerospace",
+        "strategicAlliance": "NATO",
+        "techCompanies": "Apple, Microsoft, Google, NVIDIA",
+        "semiconductorCap": "High (Design & R&D)",
+        "aiDevelopmentRank": 1,
+        "spaceMissions": "1,000+",
+        "satellites": "3,400+",
+        "internetPenetration": "92%",
+        "rdSpending": "3.5% of GDP",
+        "softPowerRank": 1,
+        "diplomaticMissions": "270+",
+        "unInfluence": "Veto Member",
+        "foreignAid": "50 Billion USD",
+        "culturalInfluence": "High (Hollywood, Silicon Valley)",
+        "globalInfluenceScore": 98,
+        "alliances": [
+            "NATO",
+            "Five Eyes",
+            "G7",
+            "Quad"
+        ],
+        "rivals": [
+            "Russia",
+            "China",
+            "Iran",
+            "North Korea"
+        ],
+        "projection2035": {
+            "gdpRank": 2,
+            "militaryRank": 1,
+            "population": "350 Million",
+            "climateRisk": "Low-Moderate",
+            "techGrowth": "Steady"
+        },
+        "name": "US"
     },
-    "Turkey": {
-        "gdp": "906 Billion USD",
-        "gdpGrowth": "4.5%",
-        "inflation": "64.8%",
-        "militaryPower": 8,
-        "activePersonnel": "425,000",
-        "defenseBudget": "16 Billion USD",
-        "nuclearWarheads": "0",
-        "aircraftCarriers": 1,
-        "primeExport": "Refined Petroleum, Cars, Gold",
-        "strategicAlliance": "NATO"
+    "Uruguay": {
+        "name": "Uruguay",
+        "flag": "🇺🇾",
+        "region": "Americas",
+        "capital": "Montevideo"
     },
-    "Iran": {
-        "gdp": "388 Billion USD",
-        "gdpGrowth": "3.0%",
-        "inflation": "39.2%",
-        "militaryPower": 14,
-        "activePersonnel": "610,000",
-        "defenseBudget": "7 Billion USD",
-        "nuclearWarheads": "0",
-        "aircraftCarriers": 0,
-        "primeExport": "Crude Petroleum, Polymers, Fertilisers",
-        "strategicAlliance": "Non-Aligned Movement"
+    "Uzbekistan": {
+        "name": "Uzbekistan",
+        "flag": "🇺🇿",
+        "region": "Asia",
+        "capital": "Tashkent"
     },
-    "Saudi Arabia": {
-        "gdp": "1.1 Trillion USD",
-        "gdpGrowth": "-0.9%",
-        "inflation": "1.5%",
-        "militaryPower": 23,
-        "activePersonnel": "227,000",
-        "defenseBudget": "69 Billion USD",
-        "nuclearWarheads": "0",
-        "aircraftCarriers": 0,
-        "primeExport": "Crude Petroleum, Refined Petroleum, Polymers",
-        "strategicAlliance": "GCC / US Strategic Ally"
+    "Vanuatu": {
+        "name": "Vanuatu",
+        "flag": "🇻🇺",
+        "region": "Oceania",
+        "capital": "Port Vila"
     },
-    "Brazil": {
-        "gdp": "1.92 Trillion USD",
-        "gdpGrowth": "2.9%",
-        "inflation": "4.6%",
-        "militaryPower": 12,
-        "activePersonnel": "360,000",
-        "defenseBudget": "19 Billion USD",
-        "nuclearWarheads": "0",
-        "aircraftCarriers": 1,
-        "primeExport": "Soybeans, Iron Ore, Crude Petroleum",
-        "strategicAlliance": "BRICS"
+    "Venezuela": {
+        "name": "Venezuela",
+        "flag": "🇻🇪",
+        "region": "Americas",
+        "capital": "Caracas"
     },
-    "Pakistan": {
-        "gdp": "348 Billion USD",
-        "gdpGrowth": "1.7%",
-        "inflation": "28.3%",
-        "militaryPower": 9,
-        "activePersonnel": "650,000",
-        "defenseBudget": "8 Billion USD",
-        "nuclearWarheads": "170",
-        "aircraftCarriers": 0,
-        "primeExport": "Clothing, Rice, Cotton",
-        "strategicAlliance": "Major Non-NATO Ally"
+    "Vietnam": {
+        "name": "Vietnam",
+        "flag": "🇻🇳",
+        "region": "Asia",
+        "capital": "Hanoi"
     },
-    "Ukraine": {
-        "gdp": "160 Billion USD",
-        "gdpGrowth": "5.3%",
-        "inflation": "5.1%",
-        "militaryPower": 18,
-        "activePersonnel": "900,000",
-        "defenseBudget": "40 Billion USD",
-        "nuclearWarheads": "0",
-        "aircraftCarriers": 0,
-        "primeExport": "Corn, Wheat, Iron Ore",
-        "strategicAlliance": "EU/NATO Aspirant"
+    "Yemen": {
+        "name": "Yemen",
+        "flag": "🇾🇪",
+        "region": "Asia",
+        "capital": "Sana'a"
+    },
+    "Zambia": {
+        "name": "Zambia",
+        "flag": "🇿🇲",
+        "region": "Africa",
+        "capital": "Lusaka"
+    },
+    "Zimbabwe": {
+        "name": "Zimbabwe",
+        "flag": "🇿🇼",
+        "region": "Africa",
+        "capital": "Harare"
     }
 }

@@ -1,0 +1,148 @@
+{
+    "globalRisk": {
+        "warProbability": 38,
+        "nuclearRisk": 12,
+        "economicInstability": 52,
+        "powerShiftIndex": 68,
+        "confidence": "Medium-High"
+    },
+    "flashpoints": [
+        {
+            "id": "ru-ukr",
+            "name": "Russia–Ukraine Expansion",
+            "riskScore": 92,
+            "status": "Critical",
+            "trend": "Escalating",
+            "description": "Potential for direct NATO involvement and tactical nuclear posturing."
+        },
+        {
+            "id": "arctic",
+            "name": "Arctic Sovereignty Contest",
+            "riskScore": 65,
+            "status": "Medium",
+            "trend": "Rising",
+            "description": "Friction between NATO members and Russia over resource rights and sea routes."
+        },
+        {
+            "id": "mx-cartels",
+            "name": "Mexico Institutional Stability",
+            "riskScore": 70,
+            "status": "High",
+            "trend": "Volatile",
+            "description": "Cartel insurgencies threatening federal authority and cross-border security."
+        },
+        {
+            "id": "taiwan",
+            "name": "Taiwan Strait Crisis",
+            "riskScore": 72,
+            "status": "High",
+            "trend": "Stable",
+            "description": "Naval blockade simulations and increased airspace incursions."
+        },
+        {
+            "id": "balkans",
+            "name": "Balkans Ethnic Tensions",
+            "riskScore": 60,
+            "status": "Medium",
+            "trend": "Rising",
+            "description": "Resurgence of ethnic friction in Kosovo and Serbia domestic politics."
+        }
+    ],
+    "predictions": {
+        "conflict": {
+            "escalation": 31,
+            "horizon": "6 Months",
+            "confidence": "High",
+            "drivers": [
+                "Energy weaponization",
+                "Cyber-infrastructure probes",
+                "Proxy-state mobilization"
+            ]
+        },
+        "economy": {
+            "recession": 25,
+            "currencyCollapse": 4,
+            "oilSpike": 42,
+            "tradeDisruption": 30
+        },
+        "alliances": {
+            "natoExpansion": 70,
+            "bricsExpansion": 85,
+            "strategicRealignment": 45
+        }
+    },
+    "powerForecast": {
+        "2030": {
+            "USA": {
+                "military": 98,
+                "gdp": 95,
+                "influence": 92,
+                "tech": 96
+            },
+            "China": {
+                "military": 92,
+                "gdp": 98,
+                "influence": 88,
+                "tech": 94
+            },
+            "India": {
+                "military": 75,
+                "gdp": 80,
+                "influence": 70,
+                "tech": 72
+            },
+            "Russia": {
+                "military": 85,
+                "gdp": 60,
+                "influence": 75,
+                "tech": 70
+            }
+        },
+        "2040": {
+            "USA": {
+                "military": 96,
+                "gdp": 92,
+                "influence": 88,
+                "tech": 98
+            },
+            "China": {
+                "military": 95,
+                "gdp": 99,
+                "influence": 92,
+                "tech": 97
+            },
+            "India": {
+                "military": 82,
+                "gdp": 88,
+                "influence": 78,
+                "tech": 85
+            },
+            "EU": {
+                "military": 78,
+                "gdp": 85,
+                "influence": 80,
+                "tech": 82
+            }
+        }
+    },
+    "scenarios": {
+        "taiwan_invasion": {
+            "military_consequences": "High - potential for US-China direct engagement",
+            "economic_impact": "Severe - Global semiconductor shortage, -5% global GDP",
+            "alliance_reaction": "NATO/AUKUS mobilization",
+            "escalation_probability": 75
+        },
+        "arctic_blockade": {
+            "military_consequences": "Escalatory - High-latitude naval skirmishes",
+            "economic_impact": "Significant - Disruption of North-East passage trade routes",
+            "alliance_reaction": "Article 5 concerns raised by Nordic states",
+            "escalation_probability": 45
+        },
+        "latin_american_debt_crisis": {
+            "military_consequences": "Low - Internal security focus",
+            "economic_impact": "Regional Contagion - Inflation death-spirals in Brazil/Argentina",
+            "alliance_reaction": "IMF/World Bank intervention required",
+            "escalation_probability": 25
+        }
+    }
+}

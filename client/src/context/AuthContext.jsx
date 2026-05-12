@@ -31,6 +31,17 @@ export const AuthProvider = ({ children }) => {
     const register = async (name, email, password) => {
         try {
             const { data } = await api.post('/auth', { name, email, password });
+            return data;
+        } catch (error) {
+            throw error.response && error.response.data.message
+                ? error.response.data.message
+                : error.message;
+        }
+    };
+
+    const verifyOTP = async (email, otp) => {
+        try {
+            const { data } = await api.post('/auth/verify-otp', { email, otp });
             setUser(data);
             localStorage.setItem('userInfo', JSON.stringify(data));
             return data;
@@ -47,7 +58,7 @@ export const AuthProvider = ({ children }) => {
     };
 
     return (
-        <AuthContext.Provider value={{ user, login, register, logout, loading }}>
+        <AuthContext.Provider value={{ user, login, register, verifyOTP, logout, loading }}>
             {children}
         </AuthContext.Provider>
     );

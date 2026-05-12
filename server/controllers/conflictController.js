@@ -5,7 +5,21 @@ import Conflict from '../models/Conflict.js';
 // @route   GET /api/conflicts
 // @access  Public
 const getConflicts = asyncHandler(async (req, res) => {
-    const conflicts = await Conflict.find({}).sort({ intensity: -1 });
+    const { region, type, status, riskLevel, isHistorical, search } = req.query;
+
+    let query = {};
+
+    if (region) query.region = region;
+    if (type) query.type = type;
+    if (status) query.status = status;
+    if (riskLevel) query.riskLevel = riskLevel;
+    if (isHistorical) query.isHistorical = isHistorical === 'true';
+
+    if (search) {
+        query.title = { $regex: search, $options: 'i' };
+    }
+
+    const conflicts = await Conflict.find(query).sort({ intensity: -1 });
     res.json(conflicts);
 });
 
